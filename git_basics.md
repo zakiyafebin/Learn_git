@@ -42,4 +42,34 @@ git cheet sheet :  https://education.github.com/git-cheat-sheet-education.pdf
 
 ## Git Backtracking
 
+>#### head commit
+> In Git, the commit you are currently on is known as the HEAD commit.\
+> **git show HEAD**
+
+>#### git checkout
+> If you make changes to scene_5.txt, later you want to discard it you can do it with checkout.\
+> **git checkout HEAD scene_5.txt**
+
+>#### git add
+> git add *  => adds all the files for staging.\
+> git add fil1.html file5.html => adds selected file for commiting
+
+>#### git reset
+> Edit file2.html\
+> Add file2.html for staging => git add file2.html \
+> To unstage a file from staging can be done using the following command\
+> **git reset HEAD file2.html**
+
+>#### git reset commit
+> Just like retracing your steps on that hike, Git enables you to rewind to the part before you made the wrong turn. You can do this with:**git reset commit_SHA**\
+> This command works by using the first 7 characters of the SHA of a previous commit.
+>![git reset SHA](resetSHA.png)\
+>Before reset:
+>- HEAD is at the most recent commit
+
+>After resetting:
+>- HEAD goes to a previously made commit of your choice
+>- The gray commits are no longer part of your project
+>- You have in essence rewound the project’s history
+
 
