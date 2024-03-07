@@ -6,3 +6,15 @@ By defaualt you will be in main branch. The following command will help you to s
 * The circles are commits, and together form the Git project’s commit history.
 * New Branch is a different version of the Git project. It contains commits from the main branch but also has commits that it does not have.
 
+
+> ### Create a new branch
+> git branch branch_name
+> ### Swithch to new branch
+>  git checkout branch_name
+>  ### Together we can use in a single command as follows
+>  git checkout -b branch_name
+
+## Git Merge
+
+When we are finished with the task or issue, we want to merge the code for that task or issue into our main codebase. 
+
