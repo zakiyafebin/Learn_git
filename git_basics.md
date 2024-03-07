@@ -8,7 +8,7 @@
 * git init => initializes the repo with git
 * touch scene-1.txt
 ## Git workflow
-![git work flow](gitworkflow.png)
+![git work flow](images/gitworkflow.png)
 A Git project can be thought of as having three parts:
 
 1) A Working Directory: where you’ll be doing all the work: creating, editing, deleting and organizing files
@@ -18,13 +18,13 @@ A Git project can be thought of as having three parts:
 The Git workflow consists of editing files in the working directory, adding files to the staging area, and saving changes to a Git repository. 
 
 ### Basic commands
-* git status![git staus](gitstatus.png)
+* git status![git staus](images/gitstatus.png)
 
 * git add filename => In order for Git to start tracking scene-1.txt, the file needs to be added to the staging area.  **git add scene-1.txt** ![git staus after add](gitstatus_add.png)
 * edit scene-1.txt
 * git diff scene-1.txt 
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![git diff](gitdiff.png)
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![git diff](images/gitdiff.png)
 * git commit
 
 &ensp;&ensp;&ensp;&ensp; A commit is the last step in our Git workflow. A commit permanently stores changes from the staging area inside the repository.
@@ -63,7 +63,7 @@ git cheet sheet :  https://education.github.com/git-cheat-sheet-education.pdf
 >#### git reset commit
 > Just like retracing your steps on that hike, Git enables you to rewind to the part before you made the wrong turn. You can do this with:**git reset commit_SHA**\
 > This command works by using the first 7 characters of the SHA of a previous commit.
->![git reset SHA](resetSHA.png)\
+>![git reset SHA](images/resetSHA.png)\
 >Before reset:
 >- HEAD is at the most recent commit
 
@@ -71,5 +71,8 @@ git cheet sheet :  https://education.github.com/git-cheat-sheet-education.pdf
 >- HEAD goes to a previously made commit of your choice
 >- The gray commits are no longer part of your project
 >- You have in essence rewound the project’s history
+
+
+
 
 
