@@ -22,7 +22,21 @@ To merge a brange to main
 * Then switch to main branch by 
 * git checkout main
 * git merge branch_name
- >- ## Merging branches to remote repository
- > git push --set-upstream origin branch_name
+ > ## Merging branches to remote repository
+ > git push --set-upstream origin branch_name\
  > goto the UI open the pull request and merge the pull rquest
+
+
+ > ## Delete branches
+ >  git branch -d branch_name
+
+
+ 
+The following commands are useful in the Git branch workflow.
+
+* git branch: Lists all a Git project’s branches.
+* git branch branch_name: Creates a new branch.
+* git checkout branch_name: Used to switch from one branch to another.
+* git merge branch_name: Used to join file changes from one branch to another.
+* git branch -d branch_name: Deletes the branch specified.
 
